@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emotion Detection</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <script src="{{ url_for('static', filename='js/scripts.js') }}" defer></script>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1> Face Emotion Detection using Webcam</h1>
+    </header>
+
+    <!-- Video Container for Emotion Detection -->
+    <div class="video-container">
+        <img src="{{ url_for('video_feed') }}" alt="Emotion Detection Video">
+    </div>
+
+
+</body>
+</html>

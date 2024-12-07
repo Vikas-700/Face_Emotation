@@ -1,0 +1,53 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(vk.jpg);
+    background-size: cover;
+    color: #e0e0e0; /* Light text color for contrast */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; 
+/
+}
+
+
+/* Video container */
+.video-container {
+    position: relative;
+    max-width: 800px;
+    margin: auto;
+    border-radius: 15px; /* Rounded corners */
+    overflow: hidden;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.858); /* Deeper shadow for a floating effect */
+    background: rgba(122, 120, 120, 0.9); /* Semi-transparent background */
+}
+
+/* Video stream */
+.video-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 15px; /* Match border radius */
+}
+
+/* Button styles */
+button {
+    background-color: #189205; /* New bright button color */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer;
+    margin: 20px;
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transitions */
+}
+
+button:hover {
+    background-color: #9e1509; /* Darker shade on hover */
+    transform: translateY(-2px); /* Slight lift effect */
+}
